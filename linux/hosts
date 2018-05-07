@@ -1,0 +1,23 @@
+#localhost
+127.0.0.1	localhost
+127.0.1.1	<Full Computer Name here>
+
+
+
+#AdBlocks - Leanient (keeps most things pretty open)
+#Commonly used in video games as a Quasi-ad provider.
+127.0.0.1 doubleclick.net 
+#Specificly targets ads common in source games (tf2, hl2, cs:go, GMod, etc)
+127.0.0.1 pubads.g.doubleclick.net 
+#targets motdgd ads
+127.0.0.1 cdn.motdgd.com
+#UNSURE; it seems this blocks google ads
+127.0.0.1 securepubads.g.doubleclick.net
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
